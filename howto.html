@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Home | Anim8</title>
+		<title>How-tos | Anim8</title>
 		<link rel="icon" type="image/png" href="icon.png">
 		<link rel="stylesheet" type="text/css" href="styles.css">
 		<script src="ui.js"></script>
 		<meta name="description" content="Jacob's website">
 		<meta name="author" content="Jacob M">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	</head>
+	 /head>
 	<body>
 		<div id="header">
 			<div class="header"><img alt="Header logo" src="icon.png" class="header-logo" style="width:30px">Anim8</div>
@@ -19,14 +19,12 @@
 		</div>
 		<hr>
 		<div id="content">
-			<h1>Welcome to Anim8</h1>
-			<u class="addendum" id="i1a" onclick="showdiv('i1')"><b>+</b> About Anim8</u>
+			<h1>How-tos for Anim8</h1>
+			<u class="addendum" id="i1a" onclick="showdiv('i1')"><b>+</b> Basics</u>
 			<p id="i1" hidden>Anim8 is a simple, easy, basic animation and design app for beginners.<br>It's a great way to get kids and beginners into art and animation. It's made with Java.</p><br><br>
-			<u class="addendum" id="i2a" onclick="showdiv('i2')"><b>+</b> How it Works</u><br>
-			<p id="i2" hidden>Anim8 is made with Java. Anim8 uses Processing and Swing for UI and controls.<br>Anim8 uses Xuggle-Xuggler to make videos.<br>Files are stored with the Anim8 Markup Standard in the .a8p file type.</p>
-			<button onclick="window.location.href='https://github.com/Jacob-Python/anim8'" class="button">Source</button><br>
-			<button onclick="download();" class="button">Download for Windows</button>
-			<div id="dropdown" style="border: 2px solid #dff8eb" hidden onclick="document.getElementById('dropdown').hidden=true;"><h1>Thanks for installing.</h1><p>You may need to disable your antivirus.</p></div>
+			<u class="addendum" id="i2a" onclick="showdiv('i2')"><b>+</b> Advanced topics</u><br>
+			<p id="i2" hidden>&emsp;<u class="addendum" id="i2-1a" onclick="showdiv('i2-1')"><b>+</b> The Anim8 Markup Standard</u><br>
+			<p id="i2-1" hidden>&emsp;Anim8 uses a form of markup language called Animarkup. <br>&emsp;The language is rather simple if you've learned HTML or XML. A tag is a block of code that holds data or other tags. Whole tags are opened with <code>@foo</code> and closed with <code>@end</code>. However, <br>&emsp;individual pieces of data (partial tags) are formatted like this: <code>@foo bar baz qux</code><br>&emsp;Some examples of tags are tags that store project names, animations, and shapes.</p></p>
 		</div>
 		<div id="bottom">
 			<span class="blk"><a target="_blank" href="https://github.com/Jacob-Python/anim8">Source</a></span>
