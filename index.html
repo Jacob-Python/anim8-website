@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home | Anim8</title>
+		<link rel="icon" href="favicon.ico">
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<script src="ui.js"></script>
+		<meta name="description" content="Jacob's website">
+		<meta name="author" content="Jacob M">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<div id="header">
+			<div class="header"><img alt="Header logo" src="logo-56x26.png" class="header-logo" style="width:50px">Anim8</div>
+			<span id="buttons">
+				<button onclick="window.location.href='index.html'" class="button">Home</button>
+				<button onclick="window.location.href='apps.html'" class="button">How to Use</button>
+			</span>
+		</div>
+		<hr>
+		<div id="content">
+			<h1>Welcome to Anim8</h1>
+			<u class="addendum" id="i1a" onclick="showdiv('i1')"><b>+</b> About Anim8</u>
+			<p id="i1" hidden>Anim8 is a simple, easy, basic animation and design app for beginners.<br>It's a great way to get kids and beginners into art and animation. It's made with Java.</p><br><br>
+			<u class="addendum" id="i2a" onclick="showdiv('i2')"><b>+</b> How it Works</u><br>
+			<p id="i2" hidden>Anim8 is made with Java. Anim8 uses Processing and Swing for UI and controls.<br>Anim8 uses Xuggle-Xuggler to make videos.<br>Files are stored with the Anim8 Markup Standard in the .a8p file type.</p>
+			<button onclick="window.location.href='https://github.com/Jacob-Python/anim8'" class="button">Source</button>
+			<button onclick="download();" class="button">Download for Windows</button>
+		</div>
+		<div id="bottom">
+			<span class="blk"><a target="_blank" href="https://github.com/Jacob-Python/anim8">Source</a></span>
+		</div>
+	</body>
+</html>

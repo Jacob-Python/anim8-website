@@ -1,0 +1,70 @@
+#header, h3, h1, p, .addendum{
+	color: #dff8eb;
+	font-family: Arial;
+}
+button {
+	border-radius: 10px;
+	background-color: #364156;
+	border: none;
+	color: white;
+	padding: 8px 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+.button{
+	color: #dff8eb;
+	height: 50px;
+	padding-right: 60px;
+}
+.button:hover{
+	 background-color: #cdcdcd;
+}
+body {
+	background-color: #011638;
+}
+#header{
+	background-color: #dff8eb;
+}
+.addendum{
+	font-size: 20;
+	color: #364156;
+}
+.addendum:hover{
+	color: #cdcdcd;
+}
+#buttons{
+	float: right;
+	position: absolute;
+	top:10px;
+	left: 600px;
+}
+.header{
+	border-radius: 25px;
+	border: 5px solid #cdcdcd;
+	background-color: #011638;
+	padding: 20px;
+	width: 500px;
+	height: 30px;
+}
+#bottom{
+	background-color: #dff8eb;
+	position: absolute;
+	bottom:0px;
+	width: 1350px;
+}
+.blk{
+	font-family: Arial;
+	color: #011638;
+}
+.lnk{
+	font-family: Arial;
+	font-size: 18px;
+}
+
+.header-logo{
+	width: 50px;
+	border: 5px solid #011638;
+	border-radius: 35%
+}
