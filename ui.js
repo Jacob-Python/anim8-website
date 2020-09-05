@@ -7,3 +7,7 @@ function showdiv(id){
 		document.getElementById(id+"a").innerHTML = document.getElementById(id+"a").innerHTML.replace("-","+")
 	}
 }
+function download(){
+	window.open("install-anim8.exe");
+	document.getElementById("dropdown").hidden = false;
+}
