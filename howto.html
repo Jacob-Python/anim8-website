@@ -8,7 +8,7 @@
 		<meta name="description" content="Jacob's website">
 		<meta name="author" content="Jacob M">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	 /head>
+	 </head>
 	<body>
 		<div id="header">
 			<div class="header"><img alt="Header logo" src="icon.png" class="header-logo" style="width:30px">Anim8</div>
@@ -20,14 +20,41 @@
 		<hr>
 		<div id="content">
 			<h1>How-tos for Anim8</h1>
-			<u class="addendum" id="i1a" onclick="showdiv('i1')"><b>+</b> Basics</u>
-			<p id="i1" hidden>Anim8 is a simple, easy, basic animation and design app for beginners.<br>It's a great way to get kids and beginners into art and animation. It's made with Java.</p><br><br>
-			<u class="addendum" id="i2a" onclick="showdiv('i2')"><b>+</b> Advanced topics</u><br>
-			<p id="i2" hidden>&emsp;<u class="addendum" id="i2-1a" onclick="showdiv('i2-1')"><b>+</b> The Anim8 Markup Standard</u><br>
-			<p id="i2-1" hidden>&emsp;Anim8 uses a form of markup language called Animarkup. <br>&emsp;The language is rather simple if you've learned HTML or XML. A tag is a block of code that holds data or other tags. Whole tags are opened with <code>@foo</code> and closed with <code>@end</code>. However, <br>&emsp;individual pieces of data (partial tags) are formatted like this: <code>@foo bar baz qux</code><br>&emsp;Some examples of tags are tags that store project names, animations, and shapes.</p></p>
-		</div>
-		<div id="bottom">
-			<span class="blk"><a target="_blank" href="https://github.com/Jacob-Python/anim8">Source</a></span>
-		</div>
+			<h3>Topic 1. Workflow</h3>
+			<p>First, you build models. Then, you apply animations. Finally, you render.</p>
+			<img src="screen-01.png" alt="UI image">
+			<hr>
+			<h4>1.1. Opening/Making Projects</h4>
+			<p>To make a project, fill out the name field and hit Create. The file is saved in (on Windows) C:/Users/namehere/Documents/anim8/insert name here/insert name here.a8p.</p>
+			<p>To open a project, select a project from the menu and hit Open.</p>
+			<p>UI below.</p>
+			<img src="proj.png" alt="Open/edit files">
+			<h4>1.2. Making/Opening/Editing Models</h4>
+			<p>Anim8 gives you all of the key shortcuts nicely listed out at the bottom of the window,<br>as seen below and circled for brevity here.</p>
+			<img src="screen-02.png" alt="Key example">	
+			<p>To color elements of a model, use the RGB color form, seen here.</p>
+			<img src="color.png" alt="RGB color form">
+			<p>If you are opening a model from a file, you will see the Model Selection form. Just enter a model number below the limit in the box, circled for brevity here.
+				<ul>
+					<li>Hit Select to view/edit model.</li>
+					<li>Hit Delete Selected to delete selected model.</li>
+					<li>Hit Update Selected to set selected's file code to model in view.</li>
+				</ul>
+			</p>
+			<img src="fileops.png" alt="If you opened a file, you'll see this.">
+			<h4>1.3. Animating Models</h4>
+			<p>To create an animation, select the model to apply the animation to. Select a transform from the dropdown. Then, enter a number if you're scaling or a coordinate pair like this one: 3,4. Then hit apply. The animation will appear on the list, as seen in the image below.</p>
+			<p>To delete an animation from the current frame, enter its number in the Delete field and hit the Delete button, seen below.</p>
+			<img src="makeanim.png" alt="Applying an animation">
+			<p>To combine the transforms into a frame, hit Merge all into frame, then hit Yes on the popup, as seen here.<br>Also, to save the current frames, hit Save animation.</p>
+			<img src="mergeanim.png" alt="Merging transforms into a frame">
+			<p>If you opened a file, you will see these buttons. Here's what they do.<ul>
+				<li>Use the Previous and Next buttons to scroll through the animations in the file.</li>
+				<li>Use the Delete button to delete the selected animation from the file.</li>
+				<li>Use the Update button to set the selected frame in the file to the frame being worked on.</li>
+			</ul>
+			</p>
+			<img src="fileopsa.png" alt="If you opened a file, you'll see this.">
+			</div>
 	</body>
 </html>

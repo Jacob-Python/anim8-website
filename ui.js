@@ -8,6 +8,6 @@ function showdiv(id){
 	}
 }
 function download(){
-	window.open("install-anim8.exe");
+	window.open("https://github.com/Jacob-Python/anim8/blob/master/install-anim8.exe?raw=true");
 	document.getElementById("dropdown").hidden = false;
 }
